@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lebanese Restaurant Contact</title>
+    <link rel="stylesheet" href="contact_styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-bar-items"><a href="index.html">Home</a></li>
+                <li class="nav-bar-items"><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="contact-us-header">Contact Us</h1>
+    <p id="description">We'd love to hear from you! Fill out this form to book a reservation!</p>
+    <form id="contact-form" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" required>
+        </fieldset>
+        <fieldset>
+            <legend>Reservation Information</legend>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" required>
+            <label for="party-size">Party Size</label>
+            <input type="number" name="party-size" id="party-size" min="1" max="10" required>
+            <label for="special-requests">Special Requests</label>
+            <textarea name="special-requests" id="special-requests"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
