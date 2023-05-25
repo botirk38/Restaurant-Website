@@ -69,4 +69,3 @@ Below are the links to the images used in the website:
 1. [Restaurant Logo](imgs/logo.jpeg)
 2. [Home Page Background Image](imgs/image.jpeg)
 
-Feel free to customize and enhance the website using these provided resources. Enjoy building your Lebanese restaurant website!
